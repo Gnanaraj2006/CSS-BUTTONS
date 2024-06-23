@@ -1,0 +1,132 @@
+.uber{
+    background-color: black;
+    color: white;
+    border: none;
+    height: 40px;
+    width: 120px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: opacity 0.8 ,background-color 0.30s ;
+    
+    }
+.uber:hover{
+   opacity: 0.8;
+}
+.uber:active{
+    opacity: 0.5;
+}
+.amazon{
+    background-color: rgba(225, 216, 20);
+    color: rgb(19, 0, 0);
+    border: none;
+    height: 30px;
+    width: 160px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.15s;
+}
+.amazon:hover{
+    background-color: rgb(223, 173, 8);
+   
+}
+.github{
+    background-color: rgb(46, 164, 79);
+    border: none;
+    height: 36px;
+    width: 90px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: box 2s;
+}
+.github:hover{
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+.bootstrap{
+    background-color: rgb(121,82,179);
+    color: white;
+    height: 40px;
+    width: 120px;
+    border: none;
+    border-radius: 1dvh;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: background-color 0.30s, width 0.30s;
+}
+.bootstrap:hover{
+    width: 150px;
+    background-color: rgb(102, 53, 175);
+}
+.download{
+    background-color: white;
+    color: rgb(108, 117, 125);
+    font-weight: bold;
+    height: 40px;
+    width: 120px;
+    border-style: solid;
+    border-width: 1.6px;
+    border-radius: 3px;
+    border-color: rgb(108, 117, 125);;
+    margin-right: 8px;
+    cursor: pointer;
+    transition: background-color 0.30s , color 0.30s;
+}
+.download:hover{
+    background-color: grey;
+    color: white;
+}
+.linkedin{
+    background-color: rgb(10, 102, 194);
+    height: 35px;
+    width: 220px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    transition: background-color 0.30s;
+}
+.linkedin:hover{
+    background-color: rgb(5, 73, 141);
+}
+
+
+.save{
+    background-color: white ;
+    border-width: 1px;
+    color: rgb(10,102,194);
+    border-color: rgb(10,102,194);
+    border-radius: 20px;
+    
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    border-style: solid;
+    transition: background-color 0.30s , border-width 0.30s;
+    cursor: pointer;
+    transition: smooth;
+    
+    
+}
+.save:hover{
+    background-color: rgb(219, 223, 227);
+    border-width: 2px;
+    
+    
+    
+}
+.save:active{
+    background-color: rgb(10,102,194) ;
+    
+    
+    color: white;
+}
